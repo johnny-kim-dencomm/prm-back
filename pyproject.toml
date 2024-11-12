@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "prm-back"
+version = "0.1.0"
+description = ""
+authors = ["johnny.kim <johnny.kim@dencomm.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115.4"
+uvicorn = {extras = ["standard"], version = "^0.32.0"}
+sqlalchemy = "^2.0.36"
+fastapi-sqlalchemy = "^0.2.1"
+psycopg2-binary = "^2.9.10"
+python-dotenv = "^1.0.1"
+python-multipart = "^0.0.17"
+python-form = "^0.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
